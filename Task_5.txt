@@ -1,0 +1,88 @@
+1- Two Basic Way Of Computer Architecture, Which One Is The Best ?
+	- RISC: Reduce the cycles per instruction at the cost of the number of instructions per program. 
+ 
+	- CISC: The CISC approach attempts to minimize the number of instructions per program but at the cost of an increase in 	  the number of cycles per instruction. 
+	-  The Best Is CISC.
+**************************************
+
+2- what are languages support auto garbage collection ?
+	- there are many modern programming languages support auto garbage collection, such as Java, Python, C#, Go .
+	- and many others. Some older or lower-level languages, such as C and C++, do not have garbage collection.
+**************************************
+
+3- what is bios? why do we use it?
+	- BIOS stands for Basic Input/Output System, that is embedded on a computer motherboard.
+	- initializes the hardware components of the computer.
+	- Checks the hardware for errors.
+	- Loads the operating system from the hard drive.
+	- Configures the computer's settings, such as the boot order and the time zone.
+**************************************
+
+4- unix vs linux and example?
+	-unix:
+ 		- roprietary software, owned by a company and users must pay a license to use it.
+		- Developed by a single company, with a consistent and stable codebase.
+		- Typically used on servers and workstations, as it is more expensive and requires more expertise to use.
+		- examples : AIX, HP-UX, Solaris and IRIX.
+	
+	-Linux:
+		- Open source software, free to use and distribute.
+		- Developed by a community of developers, with a wider range of features and more innovation.
+		- Also used on personal computers, as it is less expensive and easier to use than Unix.
+		- examples : buntu, Red Hat and Debian.
+**************************************
+
+5- what is fragmentation?
+	- Fragmentation is a problem that occurs in operating systems when the available memory space is not utilized efficiently. 	  This can happen when processes are loaded and unloaded from memory, or when files are deleted and created.
+
+	- There are two types of fragmentation:
+
+		- Internal fragmentation occurs when a process is allocated more memory than it actually needs. This is because the 		  operating system cannot allocate memory in exact byte sizes. For example, if a process needs 100 bytes of memory, 		  the operating system may allocate 128 bytes of memory to it. The remaining 28 bytes are unused and considered 		  internal fragmentation.
+		- External fragmentation occurs when there are small, unused blocks of memory scattered throughout the available 		  memory space. This can happen when a process is unloaded from memory and leaves behind a small unused block. 		  Or, it can happen when a file is deleted and the space it was occupying is not immediately reused.
+**************************************
+
+6- three scheduling algorithms?
+	- first come first serve (FCFS) : 
+		- Processes are executed in the order in which they arrive in the system.	
+		- Easy to understand and implement. No starvation.	
+		- Can lead to long wait times for processes with long execution times.
+	- Priority scheduling	:
+		- Processes are executed in order of priority. The process with the highest priority is executed first, followed by the process with the second highest priority, and so 		   on.	
+		- Can give good response times to important processes. No starvation.	
+		- Can lead to starvation of lower-priority processes.
+	- Round robin (RR):
+		- Each process is given a time slice, or quantum, to execute. When the time slice expires, the process is preempted and the next process in the queue is given a time 		   slice. This continues until all of the processes have been given a chance to run.	
+		- Can give good response times to all processes, even those with short execution times. No starvation.
+		- Can lead to high overhead.
+**************************************
+
+7- Parallel processing vs Threads ?
+	- Parallel processing: refers to the execution of multiple tasks on multiple processors or cores. This can be done on a single machine or on multiple machines in a  		  cluster. Parallel processing can significantly speed up the execution of tasks that can be broken down into independent subtasks.
+
+	- Threads : are lightweight processes that share the same address space and resources as the parent process. Threads can run concurrently on a single processor, but they 	  do not have their own processors or cores. This means that threads cannot achieve true parallelism, but they can still improve the performance of tasks that can be 	  	  broken down into independent subtasks.
+**************************************
+
+8-  languages support multithreading?
+	- C/C++: C and C++ have built-in support for multithreading. This includes the pthread library in C and the std::thread class in C++.
+	- Java: Java has built-in support for multithreading through the Thread class.
+	- Python: Python does not have built-in support for multithreading, but there are several third-party libraries that provide it, such as threading and multiprocessing.
+	- JavaScript: JavaScript does not have built-in support for multithreading, but it can be used with the Worker API to create web workers that run in parallel with the main 	  thread.
+	- Go: Go has built-in support for multithreading through the goroutine and channel constructs.
+**************************************
+
+9- clean code?
+	- it is easy to understand and read. 
+	- It is well-organized and well-formatted.
+	- It is well-commented.
+	- It is free of errors and bugs.
+	- It is consistent in style and naming conventions.
+	- It is modular and easy to test. 
+	- It is extensible and easy to maintain.
+**************************************
+
+10- solid princible?
+	- Single Responsibility Principle (SRP)
+	- Open/Closed Principle
+	- Liskov’s Substitution Principle (LSP)
+	- Interface Segregation Principle (ISP)
+	- Dependency Inversion Principle (DIP)
