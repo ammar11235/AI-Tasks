@@ -1,7 +1,6 @@
 1- Two Basic Way Of Computer Architecture, Which One Is The Best ?
 	- RISC: Reduce the cycles per instruction at the cost of the number of instructions per program. 
- 
-	- CISC: The CISC approach attempts to minimize the number of instructions per program but at the cost of an increase in 	  the number of cycles per instruction. 
+	- CISC: The CISC approach attempts to minimize the number of instructions per program but at the cost of an increase in the number of cycles per instruction. 
 	-  The Best Is CISC.
 **************************************
 
@@ -24,7 +23,6 @@
 		- Developed by a single company, with a consistent and stable codebase.
 		- Typically used on servers and workstations, as it is more expensive and requires more expertise to use.
 		- examples : AIX, HP-UX, Solaris and IRIX.
-	
 	-Linux:
 		- Open source software, free to use and distribute.
 		- Developed by a community of developers, with a wider range of features and more innovation.
@@ -33,12 +31,16 @@
 **************************************
 
 5- what is fragmentation?
-	- Fragmentation is a problem that occurs in operating systems when the available memory space is not utilized efficiently. 	  This can happen when processes are loaded and unloaded from memory, or when files are deleted and created.
-
+	- Fragmentation is a problem that occurs in operating systems when the available memory space is not utilized efficiently.
+	  This can happen when processes are loaded and unloaded from memory, or when files are deleted and created.
 	- There are two types of fragmentation:
-
-		- Internal fragmentation occurs when a process is allocated more memory than it actually needs. This is because the 		  operating system cannot allocate memory in exact byte sizes. For example, if a process needs 100 bytes of memory, 		  the operating system may allocate 128 bytes of memory to it. The remaining 28 bytes are unused and considered 		  internal fragmentation.
-		- External fragmentation occurs when there are small, unused blocks of memory scattered throughout the available 		  memory space. This can happen when a process is unloaded from memory and leaves behind a small unused block. 		  Or, it can happen when a file is deleted and the space it was occupying is not immediately reused.
+		- Internal fragmentation occurs when a process is allocated more memory than it actually needs. This is because the 		  
+		  operating system cannot allocate memory in exact byte sizes. For example, if a process needs 100 bytes of memory, 		  
+		  the operating system may allocate 128 bytes of memory to it. The remaining 28 bytes are unused and considered 
+		  internal fragmentation.
+		- External fragmentation occurs when there are small, unused blocks of memory scattered throughout the available 
+		  memory space. This can happen when a process is unloaded from memory and leaves behind a small unused block.
+		  Or, it can happen when a file is deleted and the space it was occupying is not immediately reused.
 **************************************
 
 6- three scheduling algorithms?
@@ -47,26 +49,35 @@
 		- Easy to understand and implement. No starvation.	
 		- Can lead to long wait times for processes with long execution times.
 	- Priority scheduling	:
-		- Processes are executed in order of priority. The process with the highest priority is executed first, followed by the process with the second highest priority, and so 		   on.	
+		- Processes are executed in order of priority. The process with the highest priority is executed first,
+		  followed by the process with the second highest priority, and so on.	
 		- Can give good response times to important processes. No starvation.	
 		- Can lead to starvation of lower-priority processes.
 	- Round robin (RR):
-		- Each process is given a time slice, or quantum, to execute. When the time slice expires, the process is preempted and the next process in the queue is given a time 		   slice. This continues until all of the processes have been given a chance to run.	
+		- Each process is given a time slice, or quantum, to execute. When the time slice expires, 
+		  the process is preempted and the next process in the queue is given a time slice. 
+		  This continues until all of the processes have been given a chance to run.	
 		- Can give good response times to all processes, even those with short execution times. No starvation.
 		- Can lead to high overhead.
 **************************************
 
 7- Parallel processing vs Threads ?
-	- Parallel processing: refers to the execution of multiple tasks on multiple processors or cores. This can be done on a single machine or on multiple machines in a  		  cluster. Parallel processing can significantly speed up the execution of tasks that can be broken down into independent subtasks.
+	- Parallel processing: refers to the execution of multiple tasks on multiple processors or cores. 
+	  This can be done on a single machine or on multiple machines in a cluster. 
+	  Parallel processing can significantly speed up the execution of tasks that can be broken down into independent subtasks.
 
-	- Threads : are lightweight processes that share the same address space and resources as the parent process. Threads can run concurrently on a single processor, but they 	  do not have their own processors or cores. This means that threads cannot achieve true parallelism, but they can still improve the performance of tasks that can be 	  	  broken down into independent subtasks.
+	- Threads : are lightweight processes that share the same address space and resources as the parent process. 
+	  Threads can run concurrently on a single processor, but they do not have their own processors or cores. 
+	  This means that threads cannot achieve true parallelism, but they can still improve the performance of tasks that can be  broken down into independent subtasks.
 **************************************
 
 8-  languages support multithreading?
 	- C/C++: C and C++ have built-in support for multithreading. This includes the pthread library in C and the std::thread class in C++.
 	- Java: Java has built-in support for multithreading through the Thread class.
-	- Python: Python does not have built-in support for multithreading, but there are several third-party libraries that provide it, such as threading and multiprocessing.
-	- JavaScript: JavaScript does not have built-in support for multithreading, but it can be used with the Worker API to create web workers that run in parallel with the main 	  thread.
+	- Python: Python does not have built-in support for multithreading, 
+	  but there are several third-party libraries that provide it, such as threading and multiprocessing.
+	- JavaScript: JavaScript does not have built-in support for multithreading, 
+	  but it can be used with the Worker API to create web workers that run in parallel with the main thread.
 	- Go: Go has built-in support for multithreading through the goroutine and channel constructs.
 **************************************
 
