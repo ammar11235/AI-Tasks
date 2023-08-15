@@ -1,0 +1,13 @@
+1- DevOps Vs agile ?
+	- Agile : is a software development methodology that emphasizes iterative development, continuous testing, and customer collaboration.
+ 	  Agile teams typically work in short sprints, and they release working software to customers frequently. 
+	  This allows them to get feedback from customers early and often, and it helps to ensure that the software meets the needs of the users.
+
+	- DevOps is a software development methodology that focuses on the collaboration between development, operations, and security teams.
+	  DevOps teams work together to automate the delivery and deployment of software, and they strive to achieve continuous delivery and continuous deployment.
+	  This allows them to release software more frequently and with fewer errors.
+****************************************************************
+
+2- DevOps Tools?
+	-Version Control Tool, Maven, Jenkins, Chef, Puppet, Ansible, Docker, Kubernetes, Slack.
+****************************************************************
