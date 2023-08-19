@@ -1,0 +1,24 @@
+1- websites support live datasets?
+	- Data.world : Data.world is a community-driven platform for sharing and exploring open data. 
+	  It has a wide variety of live datasets, including sensor data, financial data, and weather data.
+	- Quandl: Quandl is a financial data platform that offers a variety of live datasets, 
+	   including stock prices, exchange rates, and commodity prices.
+	- Kaggle: Kaggle is a platform for data scientists and machine learning engineers to share and compete on data science projects.
+	  It has a number of live datasets, including image datasets, text datasets, and sensor datasets.
+	- penML: OpenML is a platform for sharing and discovering machine learning algorithms and datasets.
+	  It has a number of live datasets, including image datasets, text datasets, and audio datasets.
+	- CI Machine Learning Repository: The UCI Machine Learning Repository is a popular repository of machine learning datasets.
+	   It has a number of live datasets, including image datasets, text datasets, and sensor datasets.
+*************************************************************
+
+2- What's RPA and it's tools ?
+	- RPA Stands for Robotic Process Automation. It is a software technology that allows businesses to automate repetitive tasks that are currently performed by humans.
+	  RPA software robots, or "bots," are configured to mimic human actions, such as logging into applications, entering data, and clicking on buttons. 
+	  This can free up human employees to focus on more strategic and value-added tasks.
+	
+	- RPA Is a versatile technology that can be used to automate a wide range of tasks, including:
+	  Data entry, Customer service, Order processing, Financial reporting, Compliance, IT operations, Supply chain management.
+	
+	- UiPath: UiPath is one of the leading RPA vendors. It offers a wide range of features and capabilities, making it a good choice for a variety of businesses
+	- Automation Anywhere: Automation Anywhere is another leading RPA vendor. It is known for its easy-to-use interface and its ability to automate a wide range of tasks.
+	- Blue Prism: Blue Prism is a popular RPA tool for large enterprises. It is known for its scalability and its ability to automate complex tasks.
