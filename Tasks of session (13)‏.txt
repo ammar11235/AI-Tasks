@@ -1,0 +1,37 @@
+- What is non-probability sampling methods?
+	1. Convenience sampling
+	A convenience sample simply includes the individuals who happen to be most accessible to the researcher.
+	This is an easy and inexpensive way to gather initial data, but there is no way to tell if the sample is representative of the 	population, so it can’t produce generalizable results. Convenience samples are at risk for both sampling bias and selection 	bias.
+	2. Voluntary response sampling
+	Similar to a convenience sample, a voluntary response sample is mainly based on ease of access. Instead of the researcher 	choosing participants and directly contacting them, people volunteer themselves (e.g. by responding to a public online 	survey).
+	Voluntary response samples are always at least somewhat biased, as some people will inherently be more likely to 	volunteer 	than others, leading to self-selection bias.
+	3. Purposive sampling
+	This type of sampling, also known as judgement sampling, involves the researcher using their expertise to select a sample 	that is most useful to the purposes of the research.
+	It is often used in qualitative research, where the researcher wants to gain detailed knowledge about a specific 	phenomenon rather than make statistical inferences, or where the population is very small and specific. An effective 	purposive sample must have clear criteria and rationale for inclusion. Always make sure to describe your inclusion and 	exclusion criteria and beware of observer bias affecting your arguments.
+	4. Snowball sampling
+	If the population is hard to access, snowball sampling can be used to recruit participants via other participants. The number 	of people you have access to “snowballs” as you get in contact with more people. The downside here is also 	representativeness, as you have no way of knowing how representative your sample is due to the reliance on participants 	recruiting others. This can lead to sampling bias.
+	5. Quota sampling
+	Quota sampling relies on the non-random selection of a predetermined number or proportion of units. This is called a 	quota.
+	You first divide the population into mutually exclusive subgroups (called strata) and then recruit sample units until you 	reach your quota. These units share specific characteristics, determined by you prior to forming your strata. The aim of 	quota sampling is to control what or who makes up your sample.
+*******************************************************
+
+2- Types of data distribution and types of density function?
+	- There are two main types of data distribution in statistics: continuous and discrete.
+
+	- Discrete Distribution Types:
+	1- Binomial distribution.
+	2- Poisson distribution.
+	3- Hypergeometric distribution.
+	4- Geometric distribution.
+	5- Binomial Distribution.
+
+	- Continuous Distribution Types
+ 	1- Normal Distribution
+	2- Lognormal distribution
+	3- F distribution
+	4- Chi-Square distribution
+	5- Exponential distribution
+	6- T Student distribution
+	7- Weibull Distribution
+	8- Non-normal distributions
+
